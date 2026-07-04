@@ -16,6 +16,6 @@ func TestSomething(t *testing.T) {
 	}
 
 	if got != "my-secret-key" {
-		t.Errorf("expected %q, got %q", "my-secret-key", got))
+		t.Errorf("expected %q, got %q", "my-secret-key", got)
 	}
 }
